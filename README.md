@@ -12,7 +12,7 @@ Data cleaning:
 
 One of the columns that showed NA values was metascore. We considered dropping it from the dataset, but we thought we could draw interesting analysis
 from keeping it. The approach I took here was checking the distribution of the data first and it looked something like this: <img width="1115" alt="Screen Shot 2023-05-04 at 9 18 24 AM" src="https://user-images.githubusercontent.com/47802441/236216343-ba9b3031-4f3d-41f1-ab4b-e2cefb0abf2b.png">
-As you can see, the distribution is somewhat normal. So it was decided that we would continue to sample from a normal distribution using the none NA data to find mean and standard deviation 
+As you can see, the distribution is somewhat normal. So it was decided that we would continue to sample from a normal distribution using the none NA data to find mean and standard deviation. The distribution became more normal after this.
 
 Another column that was troublesome was the revenue column, which showed how much revenue in millions a movie brought in. I took a similar approach here by checking 
 the distribution first: <img width="1121" alt="Screen Shot 2023-05-04 at 9 20 46 AM" src="https://user-images.githubusercontent.com/47802441/236216920-cc0eeb29-754d-4be3-a21f-be4bdd2de190.png">
