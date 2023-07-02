@@ -33,7 +33,8 @@ The only insight I took from this is that our R^2 is fairly low, and this means 
 Next, I transitioned into the analysis of some of the issues with our model, and I found that we had a constant variance issue and decided to focus most of my energy on fixing that. Using WLS bootstrapping, which is a method to fix non-constant variance in a model, I was able to bring make a huge difference. <img width="817" alt="Screen Shot 2023-05-04 at 9 41 47 AM" src="https://user-images.githubusercontent.com/47802441/236223490-f046e7af-2180-4f22-ad03-9997be665efc.png">
 Our aim here is to make the residuals more constant and centered around zero after bootstrapping, and in this case, WLS worked like a charm. The picture on the left is before the bootstrapping method was applied and the right is after. We can also see an improvement in the QQPlot. 
 <img width="830" alt="Screen Shot 2023-05-04 at 9 43 20 AM" src="https://user-images.githubusercontent.com/47802441/236224223-a2972154-285a-409a-a7c2-8f908c566a0b.png">
-Conclusion: 
+
+#Conclusion: 
 
 In conclusion, it was found that the impact of rating on the number of votes a movie received was different for the top 3 genres. We had a p-value of less than .05, so we can reject HO in favor of our full model. I would also like to include that we had an RMSE of about 1.5 from k-folds cross-validation, so it is possible that our model has a decent amount of predictive power.
 
