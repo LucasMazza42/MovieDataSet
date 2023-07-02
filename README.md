@@ -43,5 +43,6 @@ K-Fold cross-validation was also performed on this question. The value of the RM
 Overall, this project was a great experience for me. We were provided little guidance for this project, and we pretty much had to build our models from the ground up. The team aspect of this project was also a challenge. I find that given more time, the more college students take advantage. We took up to the deadline to turn this project in and at times lacked chemistry as a team. This was a practice of perseverance for all of us, and we had to learn to work as a team and find ways we could contribute our unique skills. 
 
 For more of a more detailed look into the whole project, including aspects I personally didn't do, please take a look at our research paper. 
+STAT51200_Group_2_Final_Report.pdf
 
 
