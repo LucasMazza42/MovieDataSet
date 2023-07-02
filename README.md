@@ -20,7 +20,7 @@ As you can see, the data is heavily right skew, so I decided to just randomly sa
 
 Another task I completed in data cleaning was ensuring all the encoding was done correctly well as cutting down the number of genres that described each movie. 
 
-Research Question: 
+# Research Question: 
 
 The research question that I decided to do was: Is the impact of rating on the number of votes the same for the top 3 genres of movies? Here is a breakdown of the variables I used: <img width="795" alt="Screen Shot 2023-05-04 at 9 34 28 AM" src="https://user-images.githubusercontent.com/47802441/236220994-6d799926-6167-4eef-8bdb-aa6f86bd0f92.png">
 
@@ -34,7 +34,7 @@ Next, I transitioned into the analysis of some of the issues with our model, and
 Our aim here is to make the residuals more constant and centered around zero after bootstrapping, and in this case, WLS worked like a charm. The picture on the left is before the bootstrapping method was applied and the right is after. We can also see an improvement in the QQPlot. 
 <img width="830" alt="Screen Shot 2023-05-04 at 9 43 20 AM" src="https://user-images.githubusercontent.com/47802441/236224223-a2972154-285a-409a-a7c2-8f908c566a0b.png">
 
-#Conclusion: 
+# Conclusion: 
 
 In conclusion, it was found that the impact of rating on the number of votes a movie received was different for the top 3 genres. We had a p-value of less than .05, so we can reject HO in favor of our full model. I would also like to include that we had an RMSE of about 1.5 from k-folds cross-validation, so it is possible that our model has a decent amount of predictive power.
 
